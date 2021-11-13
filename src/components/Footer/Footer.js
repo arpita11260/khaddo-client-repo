@@ -7,7 +7,6 @@ import {
   import React from "react";
   import { Col, Container, Row } from "react-bootstrap";
   import { NavLink } from "react-router-dom";
-  import footerLogo from "./../../assets/images/footer-logo.png";
   import payment from "./../../assets/images/payment.png";
   import "./footer.css";
   
@@ -19,22 +18,22 @@ import {
             <Row>
               <Col md={6}>
                 <div className=" my-2">
-                  <img width="180px" src={footerLogo} alt="" />
+                <h2>KHADDO</h2>
                 </div>
   
                 <ul className="list-unstyled">
                   <li>
                     <FontAwesomeIcon icon={faMapMarkerAlt} />
-                    <span className="ms-1 fs-5"> Uttora, Sector-10, Dhaka, Bangladesh</span>
+                    <span className="ms-1 fs-5"> Basaboo, Rajarbag, Dhaka-1214</span>
                   </li>
                   <li>
                     <FontAwesomeIcon icon={faMailBulk} />
-                    <span className="ms-1 fs-5">Official: aaharbd@google.com</span>
+                    <span className="ms-1 fs-5">Official: arpita.sristy@gmail.com</span>
                   </li>
                   <li>
                     <FontAwesomeIcon icon={faPhone} />
                     <span className="ms-1 fs-5">
-                      HotLine: 01544556600(Available:10:00AM to 10.00PM)
+                      HotLine: 01989456(Available:10:00AM to 10.00PM)
                     </span>
                   </li>
                 </ul>
@@ -72,7 +71,7 @@ import {
         </div>
         <hr className="m-0 p-0" />
         <p className="text-center m-0 py-3 copyright">
-          Copyright © All Reserved by AhaarBD
+          Copyright © All Reserved by KHADDO_BD
         </p>
       </div>
     );

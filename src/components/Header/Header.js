@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import useAuth from "../../hooks/useAuth.js";
 import HeaderBG from "./../../assets/images/header-bg.jpg";
-import logo from "./../../assets/images/logo.png";
 import "./header.css";
 
 const Header = () => {
@@ -15,12 +14,12 @@ const Header = () => {
     <div className="mb-4">
       <Navbar
         fixed="top"
-        style={{ background: `url(${HeaderBG})` }}
+        style={{ background: 'lightGreen' }}
         expand="lg"
       >
         <Container>
           <Navbar.Brand as={NavLink} className="text-black" to="/home">
-            <img width="150px" src={logo} alt="Logo" />
+            <h2>KHADDO</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

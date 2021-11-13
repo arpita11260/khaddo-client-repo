@@ -133,7 +133,7 @@ import {
   
     return {
       signInWithEmail,
-  
+      
       logOut,
       signInWithGoogle,
       user,

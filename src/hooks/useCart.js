@@ -25,9 +25,9 @@ const useCart = () => {
     course.status = "pending";
 
     if (isHave) {
-      alert("course has been selected!");
+      alert("Food has been Added!");
     } else {
-      fetch("http://localhost:5000/course/add", {
+      fetch("http://localhost:5000/services/add", {
         method: "post",
         headers: { "content-type": "application/json" },
         body: JSON.stringify(course),
